@@ -71,13 +71,7 @@ jobs:
         id: auth
         uses: "google-github-actions/auth@v2"
         with:
-          workload_identity_provider: "'${{ secrets.GCLOUD_SERVICE_ACCOUNT_KEY }}'"
-          service_account: "github-actions@projectmentorbangkit.iam.gserviceaccount.com"
-          create_credentials_file: true
-          export_environment_variables: true
-          cleanup_credentials: true
-          access_token_lifetime: 3600s
-          access_token_scopes: https://www.googleapis.com/auth/cloud-platform
+          credentials_json: "${{ secrets.GCLOUD_SERVICE_ACCOUNT_KEY }}"
 
       # NOTE: Alternative option - authentication via credentials json
       # - name: Google Auth
