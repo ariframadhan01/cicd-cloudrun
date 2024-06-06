@@ -1,0 +1,23 @@
+{
+  "name": "ci-cd-cloudrun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariframadhan01/cicd-cloudrun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariframadhan01/cicd-cloudrun/issues"
+  },
+  "homepage": "https://github.com/ariframadhan01/cicd-cloudrun#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
