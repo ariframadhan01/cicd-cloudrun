@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000;
 app.get("/", (req, res) => {
   res.status(200).send({
     status: "success",
-    message: "Welcome to CC-49"
+    message: "Welcome to the cloud"
   });
 });
 
